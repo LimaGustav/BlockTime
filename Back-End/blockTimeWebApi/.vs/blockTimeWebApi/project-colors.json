@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f1c76aae-5abf-4ef6-ac20-53e08d997a0f": {
+      "ProjectGuid": "f1c76aae-5abf-4ef6-ac20-53e08d997a0f",
+      "DisplayName": "blockTimeWebApi",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
