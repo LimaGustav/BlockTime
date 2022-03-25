@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oRd6PKsiWI2v3N7WG0qLgarpkys5N1j4kkSs+afXO+lvc7EGXsilnXa9LwkV6WpARZ5l8cLBtNaWWUjykojGZg==",
+  "dgSpecHash": "ZflBzmWRdtGBEAOZbb+hsRMTflWFSffNWc8lC3a2fygTdxXJa1CvHhnaEPbGiLjjXFV8sOixrPAoEZhwpUrFPw==",
   "success": true,
   "projectFilePath": "C:\\Users\\43017102807\\Desktop\\BlockTime\\Back-End\\blockTimeWebApi\\blockTimeWebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\43017102807\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\43017102807\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\43017102807\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.15\\microsoft.aspnetcore.authentication.jwtbearer.5.0.15.nupkg.sha512",
     "C:\\Users\\43017102807\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.15\\microsoft.aspnetcore.jsonpatch.5.0.15.nupkg.sha512",

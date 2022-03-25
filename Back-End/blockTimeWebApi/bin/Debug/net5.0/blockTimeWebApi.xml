@@ -4,5 +4,47 @@
         <name>blockTimeWebApi</name>
     </assembly>
     <members>
+        <member name="M:blockTimeWebApi.Interfaces.IUsuarioRepository.ListarTodos">
+            <summary>
+            Lista todos os usuarios cadastrados
+            </summary>
+            <returns>Uma lista de usuários</returns>
+        </member>
+        <member name="M:blockTimeWebApi.Interfaces.IUsuarioRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um usuário através do seu id
+            </summary>
+            <param name="id">id do usuário</param>
+            <returns>Um usuário específico</returns>
+        </member>
+        <member name="M:blockTimeWebApi.Interfaces.IUsuarioRepository.Cadastrar(blockTimeWebApi.Domains.Usuario)">
+            <summary>
+            Cadastra um novo usuário
+            </summary>
+            <param name="novoUsuario">Dados do usuario a ser cadastrado</param>
+        </member>
+        <member name="M:blockTimeWebApi.Interfaces.IUsuarioRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um usuário 
+            </summary>
+            <param name="id">id do usuário a ser deletado</param>
+            <returns></returns>
+        </member>
+        <member name="M:blockTimeWebApi.Interfaces.IUsuarioRepository.Atualizar(System.Int32,blockTimeWebApi.Domains.Usuario)">
+            <summary>
+            Atualiza os dados de um usuário
+            </summary>
+            <param name="id">id do usuário</param>
+            <param name="novoUsuario">Dados atualizados do usuário</param>
+            <returns></returns>
+        </member>
+        <member name="M:blockTimeWebApi.Interfaces.IUsuarioRepository.Login(System.String,System.String)">
+            <summary>
+            Autentica um usuário cadastrado
+            </summary>
+            <param name="email">Email do usuario</param>
+            <param name="senha">Senha do usuário</param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
