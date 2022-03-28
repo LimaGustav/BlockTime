@@ -60,7 +60,6 @@ C:\Users\43017102807\Desktop\BlockTime\Back-End\blockTimeWebApi\obj\Debug\net5.0
 C:\Users\43017102807\Desktop\BlockTime\Back-End\blockTimeWebApi\obj\Debug\net5.0\scopedcss\bundle\blockTimeWebApi.styles.css
 C:\Users\43017102807\Desktop\BlockTime\Back-End\blockTimeWebApi\obj\Debug\net5.0\staticwebassets\blockTimeWebApi.StaticWebAssets.Manifest.cache
 C:\Users\43017102807\Desktop\BlockTime\Back-End\blockTimeWebApi\obj\Debug\net5.0\blockTimeWebApi.RazorTargetAssemblyInfo.cache
-C:\Users\43017102807\Desktop\BlockTime\Back-End\blockTimeWebApi\obj\Debug\net5.0\blockTimeWebApi.csproj.CopyComplete
 C:\Users\43017102807\Desktop\BlockTime\Back-End\blockTimeWebApi\obj\Debug\net5.0\blockTimeWebApi.dll
 C:\Users\43017102807\Desktop\BlockTime\Back-End\blockTimeWebApi\obj\Debug\net5.0\ref\blockTimeWebApi.dll
 C:\Users\43017102807\Desktop\BlockTime\Back-End\blockTimeWebApi\obj\Debug\net5.0\blockTimeWebApi.xml

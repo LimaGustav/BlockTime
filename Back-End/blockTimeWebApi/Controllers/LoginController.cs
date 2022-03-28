@@ -34,7 +34,7 @@ namespace blockTimeWebApi.Controllers
 
                 if (usuarioBuscado == null)
                 {
-                    return Unauthorized(new { msg = "email" });
+                    return Unauthorized(new { msg = "E-mail ou senha inválidos" });
                 }
 
                 var minhasClaims = new[]
@@ -50,7 +50,7 @@ namespace blockTimeWebApi.Controllers
                    // new Claim(JwtRegisteredClaimNames.Name, usuarioBuscado.NomeUsuario)
                 };
 
-                var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("patrimonio-chave-autenticacao"));
+                var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("block-chave-autenticacao"));
 
                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
