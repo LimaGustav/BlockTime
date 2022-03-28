@@ -1,5 +1,6 @@
 import React from "react"
 import { useState, useEffect } from "react"
+import { useNavigate } from "react-router-dom"
 
 import logo from '../assets/block_logo.png'
 import person from '../assets/person_login.png'
@@ -12,6 +13,8 @@ export default function Login() {
     const [senha, setSenha] = useState('');
     const [isLoading, setIsLoading] = useState(false);
     const [erroMessage, setErroMessage] = useState('');
+
+    let navigate = useNavigate()
 
     const Logar = (event) => {
         event.preventDefault();
@@ -31,6 +34,8 @@ export default function Login() {
                     setEmail('')
 
                     setIsLoading(false)
+
+                    navigate('/clientes')
                 }
             }).catch(error => {
                 console.log(error)

@@ -7,12 +7,14 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router,Routes, Route, Link, Switch} from 'react-router-dom'
 
 import Login from './pages/Login';
+import ListagemClientes from './pages/ListagemClientes';
 
 const routing = (
   <Router>
     <div>
       <Routes>
         <Route exact path="/" element={<Login/>}></Route>
+        <Route path="/clientes" element={<ListagemClientes/>}></Route>
       </Routes>
     </div>
   </Router>
