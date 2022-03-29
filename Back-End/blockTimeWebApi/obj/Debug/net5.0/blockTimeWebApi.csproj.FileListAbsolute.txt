@@ -66,3 +66,4 @@ C:\Users\43017102807\Desktop\BlockTime\Back-End\blockTimeWebApi\obj\Debug\net5.0
 C:\Users\43017102807\Desktop\BlockTime\Back-End\blockTimeWebApi\obj\Debug\net5.0\blockTimeWebApi.pdb
 C:\Users\43017102807\Desktop\BlockTime\Back-End\blockTimeWebApi\obj\Debug\net5.0\blockTimeWebApi.genruntimeconfig.cache
 C:\Users\43017102807\Desktop\BlockTime\Back-End\blockTimeWebApi\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\43017102807\Desktop\BlockTime\Back-End\blockTimeWebApi\obj\Debug\net5.0\blockTimeWebApi.csproj.CopyComplete
