@@ -8,6 +8,7 @@ import {BrowserRouter as Router,Routes, Route, Link, Switch} from 'react-router-
 
 import Login from './pages/Login';
 import ListagemClientes from './pages/ListagemClientes';
+import TelaCliente from './pages/TelaCliente';
 
 const routing = (
   <Router>
@@ -15,6 +16,7 @@ const routing = (
       <Routes>
         <Route exact path="/" element={<Login/>}></Route>
         <Route path="/clientes" element={<ListagemClientes/>}></Route>
+        <Route path="/perfil" element={<TelaCliente />}></Route>
       </Routes>
     </div>
   </Router>
